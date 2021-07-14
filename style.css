@@ -61,6 +61,7 @@ body main .mission {
     grid-row: 1/2;
     text-align: center;
     padding-top: 100px;
+    line-height: 1.4;
 }
 body main .mission strong {
     font-size: 1.5em;
