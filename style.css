@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 html {
     font-family: 'Montserrat', sans-serif;
@@ -37,7 +37,7 @@ body header img {
     box-shadow: 1px 1px 4px 3px #888;
 }
 
-body header h2 {
+body header p {
     grid-column: 1/4;
     grid-row: 2/3;
     text-align: center;
@@ -48,7 +48,7 @@ body header h2 {
 body main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .5fr 1fr .5fr .5fr .2fr .6fr 400px;
+    grid-template-rows: .5fr .7fr .5fr .5fr .2fr .3fr 400px;
     gap: 30px;
     margin: 0 auto;
     width: 1300px;
@@ -60,8 +60,11 @@ body main .mission {
     grid-column: 1/5;
     grid-row: 1/2;
     text-align: center;
+    font-weight: normal;
     padding-top: 100px;
-    line-height: 1.6;
+    line-height: 2;
+    padding-bottom: 150px;
+    border-bottom: 1px solid #00000055;
 }
 body main .mission strong {
     font-size: 1.5em;
@@ -75,6 +78,7 @@ body main .health {
     justify-items:left;
     grid-column: 1/5;
     grid-row: 2/3;
+    border-bottom: 1px solid #00000055;
 }
 body main .health h3 {
     grid-column: 1/2;
@@ -100,6 +104,7 @@ body main .anxiety {
     justify-items:center;
     grid-column: 1/5;
     grid-row: 3/4;
+    border-bottom: 1px solid #00000055;
 }
 
 body main .anxiety h3 {
@@ -112,7 +117,6 @@ body main .anxiety img {
     grid-column: 1/2;
     grid-row: 1/4;
     margin:50px;
-    height: 500px;
 }
 
 body main .anxiety p {
@@ -132,6 +136,8 @@ body main .depression {
     grid-template-rows: 100px 1fr; 
     grid-column: 1/5;
     grid-row: 4/5;
+    padding: 100px;
+    border-bottom: 1px solid #00000055;
 }
 body main .depression h3 {
     grid-column: 1/2;
@@ -151,7 +157,7 @@ body main .depression p {
 
 body main .help {
     grid-column: 1/5;
-    grid-row: 5/6;
+    grid-row: 6/7;
     text-align: center;
     font-size: 4em;
     font-weight: bold;
@@ -164,7 +170,8 @@ body main .signs {
     align-items:center;
     justify-items:center;
     grid-column: 1/5;
-    grid-row: 6/7;
+    grid-row: 5/6;
+    border-bottom: 1px solid #00000055;
 }
 
 body main .signs h3 {
@@ -226,10 +233,18 @@ body main .sidexsideRight strong {
 
 body footer {
     margin: 150px;
+    border-top: 1px solid #00000055;
+    border-bottom: 1PX SOLID #00000055;
+    line-height: 2;
 }
-body footer p {
+body footer #hed {
     font-size: 3em;
 }
+
+body footer p {
+    font-size: 1.6em;
+}
+
 body footer li {
     font-size:1.6em;
 }
